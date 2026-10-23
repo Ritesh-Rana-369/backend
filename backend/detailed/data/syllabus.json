@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "unit_number": 1,
+    "title": "Introduction to Internet Technologies",
+    "description": "Internet, internet protocols, IP addressing, DNS, HTML, and JavaScript fundamentals.",
+    "topics": [
+      {
+        "id": 1,
+        "topic_number": 1,
+        "topic_title": "Internet",
+        "topic_description": "The Internet is a worldwide network of interconnected computers and devices that communicate using standard rules called protocols. It lets users share information through websites, email, file transfer and streaming. Data travels in small packets across routers and cables, reaching its destination by the best available path. Understanding the Internet is the foundation for every backend developer, because servers exist to serve clients across this network."
+      },
+      {
+        "id": 2,
+        "topic_number": 2,
+        "topic_title": "Internet Protocols",
+        "topic_description": "Internet protocols are agreed rules that let different machines exchange data reliably. TCP/IP splits data into packets, routes them and reassembles them at the destination. HTTP defines how browsers request web pages and how servers respond. DNS translates names into addresses, and SMTP is used to send email between servers. Together these protocols make the web, email and online services work."
+      },
+      {
+        "id": 3,
+        "topic_number": 3,
+        "topic_title": "IP Addressing",
+        "topic_description": "An IP address is a unique numeric label given to every device on a network so that data can be sent to the right place. IPv4 uses four numbers separated by dots, such as 192.168.1.1, while IPv6 uses longer hexadecimal addresses to provide far more combinations. Addresses can be public or private, and static or dynamic. Servers use IP addresses to know which client is requesting data."
+      },
+      {
+        "id": 4,
+        "topic_number": 4,
+        "topic_title": "Domain Name System (DNS)",
+        "topic_description": "The Domain Name System works like the phone book of the Internet. People find it easy to remember names like example.com, but computers need numeric IP addresses. When you type a domain, a DNS resolver looks up the matching IP address through a hierarchy of root, top-level-domain and authoritative name servers. The result is cached to make later visits faster."
+      },
+      {
+        "id": 5,
+        "topic_number": 5,
+        "topic_title": "Hypertext Markup Language (HTML)",
+        "topic_description": "HTML (Hypertext Markup Language) is the standard language used to create the structure of web pages. It uses tags such as headings, paragraphs, links, images, lists, tables and forms to describe content. Browsers read the HTML and display it to the user. In backend development, HTML is the output that PHP generates and sends to the browser, so a good knowledge of it is essential."
+      },
+      {
+        "id": 6,
+        "topic_number": 6,
+        "topic_title": "JavaScript Programming Fundamentals",
+        "topic_description": "JavaScript is a scripting language that runs inside the browser and makes web pages interactive. Its fundamentals include variables, data types, operators, conditions, loops, functions and events. It can change page content, validate forms and respond to clicks without reloading the page. Students learn JavaScript here to handle client-side tasks while PHP handles the work on the server."
+      },
+      {
+        "id": 7,
+        "topic_number": 7,
+        "topic_title": "Front-end vs Server-side Scripting",
+        "topic_description": "Front-end (client-side) scripting runs in the user's browser and controls how the page looks and behaves, using HTML, CSS and JavaScript. Server-side scripting runs on the web server, using languages like PHP, and handles tasks such as processing forms, talking to databases and protecting data. The server sends only the final result to the browser, so the user never sees the backend code."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "unit_number": 2,
+    "title": "Introduction to PHP & String Handling",
+    "description": "PHP basics: syntax, variables, operators, control structures, and string handling.",
+    "topics": [
+      {
+        "id": 8,
+        "topic_number": 1,
+        "topic_title": "Basic Syntax",
+        "topic_description": "Basic syntax covers how a PHP program is written. PHP code is placed inside opening and closing tags (<?php ... ?>) and every statement ends with a semicolon. Comments can be written with //, # or /* */. The echo and print statements send output to the browser. PHP files are saved with the .php extension and executed by the web server before the page is sent."
+      },
+      {
+        "id": 9,
+        "topic_number": 2,
+        "topic_title": "Variables and Constants",
+        "topic_description": "Variables store data that can change while a program runs. In PHP they begin with a dollar sign, such as $name, and need no type declaration. Variable names are case-sensitive and must start with a letter or underscore. Constants hold values that cannot change once set, and are created with define() or the const keyword. They are useful for fixed values like a site name or tax rate."
+      },
+      {
+        "id": 10,
+        "topic_number": 3,
+        "topic_title": "Data Types",
+        "topic_description": "PHP supports several data types. Scalar types include integer, float, string and boolean, while compound types include array and object. There are also the special types NULL and resource. PHP is loosely typed, so it converts types automatically when needed. Functions like var_dump() and gettype() help you check the type of a value while debugging."
+      },
+      {
+        "id": 11,
+        "topic_number": 4,
+        "topic_title": "Operators and Expressions",
+        "topic_description": "Operators perform actions on values, and an expression is a combination of values and operators that produces a result. PHP has arithmetic (+, -, *, /, %), assignment (=, +=), comparison (==, ===, <, >), logical (&&, ||, !), increment/decrement and string concatenation (.) operators. Operator precedence decides the order of evaluation, and brackets can be used to control it."
+      },
+      {
+        "id": 12,
+        "topic_number": 5,
+        "topic_title": "Decision Making Statements",
+        "topic_description": "Decision making statements let a program choose what to do based on a condition. PHP provides if, if-else, else-if ladders and switch. The condition is evaluated as true or false, and only the matching block runs. The switch statement is handy when one variable is compared against many fixed values. These statements are used for tasks like checking a login or grading marks."
+      },
+      {
+        "id": 13,
+        "topic_number": 6,
+        "topic_title": "Looping Constructs",
+        "topic_description": "Looping constructs repeat a block of code while a condition holds. PHP offers while, do-while, for and foreach loops. The for loop is used when the number of repetitions is known, while loops when it is not, and foreach to go through every element of an array. The break and continue statements control the flow. Loops are used to print tables, lists and database records."
+      },
+      {
+        "id": 14,
+        "topic_number": 7,
+        "topic_title": "Mixing Decisions and Looping with HTML",
+        "topic_description": "PHP can be mixed with HTML so that a page is built dynamically. Decision and loop statements can be opened in PHP, closed, and followed by plain HTML, then resumed. For example, a foreach loop can generate table rows or list items, and an if statement can show or hide a section. The alternative syntax (if: endif; foreach: endforeach;) keeps such templates readable."
+      },
+      {
+        "id": 15,
+        "topic_number": 8,
+        "topic_title": "String Handling",
+        "topic_description": "A string is a sequence of characters such as a name or a message. In PHP, strings can be created with single quotes, double quotes (which allow variables inside), heredoc or nowdoc syntax. Individual characters are accessed using their position, for example $str[0]. Strings are one of the most used data types, because form input, text and database values are all handled as strings."
+      },
+      {
+        "id": 16,
+        "topic_number": 9,
+        "topic_title": "Searching and Replacing in Strings",
+        "topic_description": "PHP has functions to search within strings and replace parts of them. strpos() and stripos() find the position of a word, strstr() returns the part of the string from a match, and substr_count() counts occurrences. str_replace() and str_ireplace() replace text, while substr_replace() changes a part by position. These functions are used in searching, filtering and cleaning user input."
+      },
+      {
+        "id": 17,
+        "topic_number": 10,
+        "topic_title": "Formatting Strings and Built-in Functions",
+        "topic_description": "Formatting prepares a string for display. Functions such as strtoupper(), strtolower(), ucfirst(), ucwords(), trim(), nl2br(), number_format(), printf() and sprintf() change case, remove spaces, add line breaks and format numbers. Other built-in functions like strlen(), strrev(), str_word_count(), explode() and implode() measure, reverse and split strings. Together they make text handling quick and easy."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "unit_number": 3,
+    "title": "Handling HTML Form with PHP",
+    "description": "Creating forms and sending data to the server using GET and POST with validation.",
+    "topics": [
+      {
+        "id": 18,
+        "topic_number": 1,
+        "topic_title": "Creating a Form",
+        "topic_description": "An HTML form collects information from the user, such as a name, email or password. It is created with the <form> tag and contains input fields, radio buttons, checkboxes, drop-down lists, text areas and a submit button. The action attribute gives the PHP file that will process the data, and the method attribute states how it is sent. Forms are the main way users interact with a backend."
+      },
+      {
+        "id": 19,
+        "topic_number": 2,
+        "topic_title": "Submitting Data to the Server",
+        "topic_description": "When the user clicks submit, the browser sends the form data to the server at the backend. The PHP script named in the action attribute receives it and can read each value by its field name. The script can then check the data, store it, or send a response page. This client-to-server flow is the heart of dynamic websites such as registrations and logins."
+      },
+      {
+        "id": 20,
+        "topic_number": 3,
+        "topic_title": "GET vs POST Methods",
+        "topic_description": "GET and POST are the two methods used to send form data. GET appends the data to the URL, so it is visible, limited in size and can be bookmarked; it suits searches and filters. POST sends the data in the request body, so it is hidden, has no practical size limit and is used for passwords and sensitive information. PHP reads them with $_GET and $_POST."
+      },
+      {
+        "id": 21,
+        "topic_number": 4,
+        "topic_title": "Student Registration Form",
+        "topic_description": "A student registration form collects details such as name, roll number, email, course and password. When the form is submitted by POST, the PHP script reads the values from $_POST and validates them on the server: required fields must not be empty, the email must be valid and the password must be of a minimum length. Valid data is accepted, otherwise error messages are shown."
+      },
+      {
+        "id": 22,
+        "topic_number": 5,
+        "topic_title": "Login Form",
+        "topic_description": "A login form asks for a username (or email) and password and sends them to the server using POST. The PHP script checks that both fields are filled in and then compares them with stored credentials. If they match, access is granted, otherwise an error message is displayed. Server-side validation is essential here, because client-side checks can be bypassed by users."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "unit_number": 4,
+    "title": "Database Connectivity with MySQL",
+    "description": "Connecting PHP to MySQL, creating databases and tables, and manipulating data.",
+    "topics": [
+      {
+        "id": 23,
+        "topic_number": 1,
+        "topic_title": "Connectivity with Database",
+        "topic_description": "Database connectivity allows a PHP script to communicate with a MySQL database. PHP provides the mysqli extension and PDO for this purpose. A connection needs the host name, user name, password and database name. After connecting, the script can run queries and receive results. It is good practice to check that the connection succeeded and to close it when finished."
+      },
+      {
+        "id": 24,
+        "topic_number": 2,
+        "topic_title": "Database Creation",
+        "topic_description": "Database creation means making a new database on the MySQL server where tables will be stored. It can be done in phpMyAdmin or from PHP by running the SQL command CREATE DATABASE. The script should handle errors, for example when the database already exists. Using CREATE DATABASE IF NOT EXISTS avoids this problem. Once created, the database is selected before any tables are made."
+      },
+      {
+        "id": 25,
+        "topic_number": 3,
+        "topic_title": "Creating Tables",
+        "topic_description": "Tables store the actual data in rows and columns. A table is created with the SQL CREATE TABLE command, where each column is given a name, a data type such as INT, VARCHAR or DATE, and optional constraints like PRIMARY KEY, AUTO_INCREMENT and NOT NULL. The PHP script sends this command using a query function. A well-designed table, for example for students, forms the base of an application."
+      },
+      {
+        "id": 26,
+        "topic_number": 4,
+        "topic_title": "Insertion of Data",
+        "topic_description": "Insertion adds new records into a table using the SQL INSERT INTO statement. Values usually come from an HTML form submitted to PHP, so they must be handled safely. Prepared statements with bound parameters protect the database from SQL injection. After the query runs, the script can check whether the insertion succeeded and show a confirmation message to the user."
+      },
+      {
+        "id": 27,
+        "topic_number": 5,
+        "topic_title": "Retrieval of Data",
+        "topic_description": "Retrieval means reading stored data with the SQL SELECT statement. The PHP script runs the query and gets a result set, then loops through it using functions like fetch_assoc() to read each row. The rows can be shown in an HTML table. A WHERE clause filters records, ORDER BY sorts them and LIMIT restricts how many are returned, which helps with searching and pagination."
+      },
+      {
+        "id": 28,
+        "topic_number": 6,
+        "topic_title": "Data Manipulation",
+        "topic_description": "Data manipulation covers changing data that already exists in the database. The UPDATE statement modifies the values of existing records, and the DELETE statement removes records, both normally with a WHERE clause so only the intended rows are affected. Together with INSERT and SELECT, these make up the CRUD operations (Create, Read, Update, Delete) that form the core of most web applications."
+      }
+    ]
+  }
+]
