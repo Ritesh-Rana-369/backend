@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 4: PHP + MySQL | Web Programming</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-logo">Web Programming</a>
+        <div class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="index.html#topics">Topics</a>
+            <a href="about.html">About</a>
+        </div>
+    </div>
+</nav>
+
+<header class="hero" style="padding:40px 20px; text-align:left;">
+    <div class="container">
+        <h1>Unit 4: PHP + MySQL</h1>
+        <p style="color:#cbd5e1; margin-top:6px;">Database connectivity, CRUD operations, student system</p>
+    </div>
+</header>
+
+<section style="padding:40px 20px; background:var(--bg);">
+    <div class="container">
+        <div class="card">
+            <h3>MySQL Connectivity</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                PHP connects to MySQL using mysqli_connect(). Requires host, username, password, and database name.
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Database & Table Creation</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                CREATE DATABASE creates a new database. CREATE TABLE defines tables with columns, data types, and constraints (PRIMARY KEY, AUTO_INCREMENT).
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Inserting Data</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                INSERT INTO statement adds new rows to a table. Use mysqli_real_escape_string() to prevent SQL injection.
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Retrieving Data</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                SELECT statement fetches data. mysqli_fetch_assoc() retrieves rows as associative arrays for display.
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Data Manipulation</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                UPDATE modifies existing records. DELETE removes records. Both use WHERE clause to target specific rows.
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Student System</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                Complete application: registration stores students in MySQL with hashed passwords, login verifies credentials using password_verify().
+            </p>
+        </div>
+
+        <a href="index.html" style="display:inline-block; margin-top:22px; font-size:0.85rem; color:var(--primary);">&#8592; Back to Topics</a>
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 2: PHP Basics | Web Programming</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="../index.html" class="nav-logo">Web Programming</a>
+        <div class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="index.html#topics">Topics</a>
+            <a href="about.html">About</a>
+        </div>
+    </div>
+</nav>
+
+<header class="hero" style="padding:40px 20px; text-align:left;">
+    <div class="container">
+        <h1>Unit 2: PHP Basics</h1>
+        <p style="color:#cbd5e1; margin-top:6px;">Syntax, variables, constants, data types, operators, decision making, looping</p>
+    </div>
+</header>
+
+<section style="padding:40px 20px; background:var(--bg);">
+    <div class="container">
+        <div class="card">
+            <h3>PHP Syntax</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                PHP code is enclosed within <?php ... ?> tags. It is a server-side scripting language embedded in HTML.
+            </p>
+            <div class="code-block">&lt;?php
+    echo "Hello World";
+?&gt;</div>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Variables & Constants</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                Variables start with $ (e.g., $name = "Rishi"). Constants are defined using define() and cannot change during execution.
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Data Types</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                String, Integer, Float, Boolean, Array, Object, NULL. PHP is loosely typed &mdash; types are determined at runtime.
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Operators & Expressions</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                Arithmetic (+, -, *, /, %), Assignment (=, +=), Comparison (==, !=, >, <), Logical (&&, ||, !).
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Decision Making</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                if, if-else, else-if, and switch statements control program flow based on conditions.
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Looping</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                for, while, do-while, and foreach loops repeat code blocks multiple times.
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Mixing PHP with HTML</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                PHP can be embedded directly within HTML to generate dynamic content. PHP executes on the server before sending HTML to the browser.
+            </p>
+        </div>
+
+        <a href="index.html" style="display:inline-block; margin-top:22px; font-size:0.85rem; color:var(--primary);">&#8592; Back to Topics</a>
+    </div>
+</section>
+
+</body>
+</html>

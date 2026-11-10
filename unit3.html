@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 3: Strings & Forms | Web Programming</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-logo">Web Programming</a>
+        <div class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="index.html#topics">Topics</a>
+            <a href="about.html">About</a>
+        </div>
+    </div>
+</nav>
+
+<header class="hero" style="padding:40px 20px; text-align:left;">
+    <div class="container">
+        <h1>Unit 3: Strings & Forms</h1>
+        <p style="color:#cbd5e1; margin-top:6px;">String functions, HTML forms, GET/POST, registration & login with validation</p>
+    </div>
+</header>
+
+<section style="padding:40px 20px; background:var(--bg);">
+    <div class="container">
+        <div class="card">
+            <h3>PHP String Operations</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                Create, access, search, replace, and format strings. Built-in functions: strlen(), strpos(), str_replace(), strtoupper(), strtolower(), trim(), substr(), explode(), implode().
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>HTML Forms</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                Forms collect user input using &lt;input&gt;, &lt;textarea&gt;, &lt;select&gt; elements. Data is sent to the server for processing.
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>GET vs POST Methods</h3>
+            <table style="width:100%; border-collapse:collapse; font-size:0.85rem; color:var(--muted);">
+                <tr style="background:var(--primary); color:#fff;">
+                    <th style="padding:8px; border:1px solid var(--line); text-align:left;">GET</th>
+                    <th style="padding:8px; border:1px solid var(--line); text-align:left;">POST</th>
+                </tr>
+                <tr><td style="padding:8px; border:1px solid var(--line);">Data visible in URL</td><td style="padding:8px; border:1px solid var(--line);">Data hidden in request body</td></tr>
+                <tr><td style="padding:8px; border:1px solid var(--line);">Limited data size</td><td style="padding:8px; border:1px solid var(--line);">Large data size</td></tr>
+                <tr><td style="padding:8px; border:1px solid var(--line);">Less secure</td><td style="padding:8px; border:1px solid var(--line);">More secure</td></tr>
+            </table>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Server-side Validation</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                PHP validates form data on the server: check for empty fields, validate email format, verify password length, sanitize input using htmlspecialchars() and filter_var().
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Student Registration</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                Form collects name, email, password. PHP validates all fields and stores valid data in the database.
+            </p>
+        </div>
+
+        <div class="card" style="margin-top:14px;">
+            <h3>Student Login</h3>
+            <p style="color:var(--muted); font-size:0.9rem;">
+                Form collects email and password. PHP verifies credentials against stored records and grants or denies access.
+            </p>
+        </div>
+
+        <a href="index.html" style="display:inline-block; margin-top:22px; font-size:0.85rem; color:var(--primary);">&#8592; Back to Topics</a>
+    </div>
+</section>
+
+</body>
+</html>
